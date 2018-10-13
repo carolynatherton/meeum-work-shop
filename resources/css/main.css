@@ -73,22 +73,38 @@ h4,
 h5 {
 font-family: var(--font-heading);
 color: var(--strong-text-color);
-
+font-weight: normal;
 }
 
+h1 {
+    font-size: var(--font-size-page-title);
+}
+h2 {
+    font-size: var(--font-size-section-title);
+}
 
+h3 {
+    font-size: var(--font-size-sub-title);
+}
+a {
+    color: var(--error-color);
+    transition: var(--transition-time);
+}
+a:hover {
+    color: var(--strong-text-color);
+}
 
 
 
 /*--------------------layouts */
 .layout-full-width,
 .layout-wide {
-    margin-bottom: var(--spacer-large)
+    margin-bottom: var(--spacer-large);
 }   
 .layout-full-width {
-    width: 100%
+    width: 100%;
 }
-.layout-wide{
+.layout-wide {
     max-width: var(--area-wide);
     padding-left: var(--padder);
     padding-right: var(--padder);
