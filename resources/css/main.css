@@ -82,9 +82,7 @@ video {
 
     
 }
-}
 
-}
 
 /*--------------------header */
 
@@ -92,7 +90,7 @@ header {
     background-color: var(--alternative-bg-color);
     padding-top: var(--padder);
 }
-header.layout-wide {
+header .layout-wide {
     overflow: hidden;
     margin-bottom: 0%;
 }
