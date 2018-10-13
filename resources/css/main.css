@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Raleway');
+
 /*------------------variables */
 
 :root {
@@ -63,6 +65,20 @@ video {
     height: auto;
 }
 /*--------------------headings and type */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+font-family: var(--font-heading);
+color: var(--strong-text-color);
+
+}
+
+
+
+
 
 /*--------------------layouts */
 .layout-full-width,
@@ -160,7 +176,17 @@ input [type="email"] {
 }
 
 input[type="submit"]{
-    
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    background-color: var(--alternative-bg-color);
+
+    border-radius: 30px;
+    padding: var(--padder);
+    min-width: 200px;
+
+    color: white;
+
+
 }
 /*--------------------modules */
 
