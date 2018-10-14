@@ -71,6 +71,9 @@ video {
     max-width: 100%;
     height: auto;
 }
+ iframe {
+     max-width: 100%;
+ }
 /*--------------------headings and type */
 
 h1,
