@@ -159,7 +159,7 @@ header .layout-wide {
 
     position: sticky;
     top: 0;
-    
+
 }
 
 .nav-prompt {
@@ -193,9 +193,16 @@ header .layout-wide {
     text-decoration: none;
     text-transform: uppercase;
     border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--padder);
 }
 .nav-inner a:hover {
     color: var(--error-color);
+}
+
+.nav-inner .active {
+    border-bottom: 2px solid white;
+    font-weight: bold;
+
 }
 @media screen and (min-width: 800px) {
     .nav-prompt {
@@ -206,7 +213,7 @@ header .layout-wide {
         justify-content: space-between;
     }
 .nav-inner a {
-    border-bottom: 2px soled transparent;
+    border-bottom: 2px solid transparent;
     }
 
 }
