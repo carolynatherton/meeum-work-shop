@@ -159,6 +159,7 @@ header .layout-wide {
 
     position: sticky;
     top: 0;
+    z-index: 10;
 
 }
 
@@ -320,10 +321,18 @@ input[type="submit"]{
     .hero-content .heading-main {
         color: white;
         text-shadow: 0px 1px 10px var(--strong-text-color);
-        
+
     }
 }
 
+/* grids */
 
+@media screen and (min-width: 800px) {
+    .content-area-grid {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+}
 
 
